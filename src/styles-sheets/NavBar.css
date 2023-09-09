@@ -1,0 +1,51 @@
+.navbar {
+  width: 100%;
+  background-image: url(../Images/sandia.jpg);
+}
+.navbar .navbar-brand {
+  text-align: center;
+  border-radius: 20px;
+  background-color: #FDA500;
+  color: white;
+  padding: 5px 25px;
+}
+.navbar button {
+  margin-right: 60px;
+  background-color: #FAC462;
+  border: 3px solid #FDA500;
+}
+.navbar #basic-navbar-nav{
+  justify-content: end;
+}
+.navbar .navbar-nav li {
+  display: flex;
+  align-items: center;
+  background-color: #FAC462;
+  border-bottom: 3px solid #FDA500;
+}
+.navbar .navbar-nav li:last-child {
+  border: 0px;
+}
+.navbar .navbar-nav li a {
+  font-family: "Sigmar", cursive;
+  color: white;
+  font-weight: 900;
+  text-align: center;
+}
+/* .navbar .navbar-nav li.current {
+  background-color: #FDA500;
+} */
+
+@media screen and (min-width: 768px) {
+  .navbar .navbar-nav li {
+    border: 0px;
+    border-radius: 40px;
+    margin: 5px;
+    transition: all 0.4s cubic-bezier(0.1, 1.8, 0.65, 1.8);
+  }
+  .navbar .navbar-nav li:not(.current):hover {
+    transform: scale(1.2);
+    background-color: #FDA500;
+    z-index: 1;
+  }
+}

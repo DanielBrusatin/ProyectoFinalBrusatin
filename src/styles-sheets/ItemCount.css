@@ -1,0 +1,48 @@
+.item-count-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-count-container p {
+  margin: 0;
+  padding: 0 5px;
+  user-select: none;
+}
+
+.item-count {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 120px;
+  border: 1px solid #0d6efd;
+  border-radius: 20px;
+  padding: 2px 5px;
+  background-color: white;
+}
+
+.item-count-button {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  fill: #0d6efd;
+}
+
+.item-count-button:hover {
+  fill: #0b5ed7;
+}
+
+.add-to-cart-button {
+  width: 18px;
+  height: 18px;
+}
+
+.add-to-cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 120px;
+  border-radius: 20px;
+  padding: 2px 5px;
+
+}

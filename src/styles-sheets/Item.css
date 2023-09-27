@@ -1,0 +1,14 @@
+.card{
+  margin: 1rem;
+}
+.card-img {
+  padding: 1rem 1rem 0;
+  height: 180px;
+  object-fit: contain;
+} 
+.card-button {
+  margin: 1rem;
+}
+.card-footer {
+  text-align: center;
+}

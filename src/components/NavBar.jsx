@@ -14,11 +14,11 @@ function NavBar() {
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav >
-            <li><Nav.Link as={NavLink} to={'/category/baño'}>Baño</Nav.Link></li>
-            <li><Nav.Link as={NavLink} to={'/category/cocina'}>Cocina & comedor</Nav.Link></li>
-            <li><Nav.Link as={NavLink} to={'/category/living'}>Living & dormitorio</Nav.Link></li>
-            <li><Nav.Link as={NavLink} to={'/category/materas'}>Materas & lonas</Nav.Link></li>
-            <li><Nav.Link as={NavLink} to={'/category/complementos'}>Complementos</Nav.Link></li>
+            <Nav.Link as={NavLink} to={'/category/baño'}>Baño</Nav.Link>
+            <Nav.Link as={NavLink} to={'/category/cocina'}>Cocina & comedor</Nav.Link>
+            <Nav.Link as={NavLink} to={'/category/living'}>Living & dormitorio</Nav.Link>
+            <Nav.Link as={NavLink} to={'/category/materas'}>Materas & lonas</Nav.Link>
+            <Nav.Link as={NavLink} to={'/category/complementos'}>Complementos</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         <Nav.Link as={NavLink} to={'/cart'}>

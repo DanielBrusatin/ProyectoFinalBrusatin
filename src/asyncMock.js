@@ -8,7 +8,7 @@ export const getProducts = (category) => {
           resolve(products.filter( product => product.category == category)) 
           : resolve(products)
         })
-    }, 2000);
+    }, 20);
   })
 }
 
@@ -18,6 +18,6 @@ export const getProductById = (id) => {
       fetch('/catalogue.json')
         .then(res => res.json())
         .then(products => resolve(products.find(product => product.id == id)))
-    }, 2000);
+    }, 20);
   })
 }

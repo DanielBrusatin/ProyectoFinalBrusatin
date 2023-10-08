@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import ItemList from './ItemList'
 import { getProducts } from '../asyncMock'
 import { useParams } from 'react-router-dom'
+import { Spinner } from 'react-bootstrap'
 
 const ItemListContainer = ({greeting}) => {
   const {categoryId} = useParams()
@@ -32,7 +33,7 @@ const ItemListContainer = ({greeting}) => {
         }
       }) ()
     }
-    {products ? <ItemList products={products}/> : <h6>Cargando productos...</h6>}
+    {products ? <ItemList products={products}/> : <h6><Spinner animation='border' size='sm' /> Cargando productos...</h6>}
     </div>
   )
 }

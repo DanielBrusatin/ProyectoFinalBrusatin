@@ -1,10 +1,12 @@
 import React, { useContext } from 'react'
 import { CartContext } from '../context/CartContext'
 import { NavLink } from 'react-router-dom'
-import { Button } from 'react-bootstrap'
+import { Button, Col, Container, Row, Table } from 'react-bootstrap'
+import CartItem from './CartItem'
+import { BsTrashFill } from 'react-icons/bs'
 
 const Cart = () => {
-  const  {cartList, totalItems, removeItem, cleanCart}  = useContext(CartContext)
+  const  {cartList, totalItems, totalPrice, removeItem, cleanCart}  = useContext(CartContext)
 
   if (!totalItems) {
     return (
@@ -15,9 +17,19 @@ const Cart = () => {
     )
   }
   return (
-    cartList.map(producto => <div>
-      <h2>{producto.name}</h2><button onClick={() => removeItem(producto)}></button>
-    </div>)
+    <Container fluid>
+      {cartList.map(item => <CartItem key={item.id} {...item}/>)}
+      <Row style={{margin: 20}}>
+        <Col md={7} style={{textAlign: 'right'}}>TOTAL</Col>
+        <Col md={2} style={{textAlign: 'right'}}>${totalPrice}</Col>
+        <Col md={3}>
+        <button className="btn btn-primary remove-from-cart" onClick={cleanCart}>
+          <BsTrashFill className='remove-from-cart-button'/>
+          <p>Vaciar carrito</p>
+        </button>
+      </Col>
+      </Row>
+    </Container>
   )
 }
 

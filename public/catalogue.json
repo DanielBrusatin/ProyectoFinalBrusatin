@@ -1,6 +1,5 @@
 [
   {
-    "id":"1",
     "name":"Cortina de baño 180x180 cm",
     "img":"cortina-lisa",
     "description":"Colores lisos:\n> blanco\n> natural\n> rosa viejo\n> verde seco\n> avellana\n> gris claro\n> gris oscuro",
@@ -9,7 +8,6 @@
     "category":"baño"
   },
   {
-    "id":"2",
     "name":"Cortina de baño rayada 180x180 cm",
     "img":"cortina-rayada",
     "description":"Colores Rayados:\n> blanco con líneas grices\n> verde seco con líneas blancas\n> natural con líneas rosas\n> arena con líneas doradas",
@@ -18,7 +16,6 @@
     "category":"baño"
   },
   {
-    "id":"3",
     "name":"Cortina de baño triple volado 180x180 cm",
     "img":"cortina-volado",
     "description":"Colores lisos:\n> blanco\n> natural\n> rosa viejo\n> verde seco\n> avellana\n> gris claro\n> gris oscuro",
@@ -27,7 +24,6 @@
     "category":"baño"
   },
   {
-    "id":"4",
     "name":"Mantel con volados 180x120 cm",
     "img":"mantel-volados",
     "description":"¡Con contenedor\\panera de regalo!\n(calcular que el mantel debe ser entre 40 y 60 cm más grande que la mesa)",
@@ -36,7 +32,6 @@
     "category":"cocina"
   },
   {
-    "id":"5",
     "name":"Mantelito individual",
     "img":"mantelito",
     "description":"Modelos:\n>Flamencos\n>Sandías\n>Mexicano\n>Jungla",
@@ -45,7 +40,6 @@
     "category":"cocina"
   },
   {
-    "id":"6",
     "name":"Mantelitos individuales X 6 u.",
     "img":"mantelito",
     "description":"¡PROMO! 10% OFF\nModelos:\n>Flamencos\n>Sandías\n>Mexicano\n>Jungla",
@@ -54,7 +48,6 @@
     "category":"cocina"
   },
   {
-    "id":"7",
     "name":"Alfombra diseño hoja",
     "img":"alfombra",
     "description":"Medida 70x55 cm\nColores: avellana, verde, gris, rosa y natural.",
@@ -63,7 +56,6 @@
     "category":"living"
   },
   {
-    "id":"8",
     "name":"Manta de corderito 160x100 cm",
     "img":"manta",
     "description":"Corderito color rosa, miel y blanco.",
@@ -72,7 +64,6 @@
     "category":"living"
   },
   {
-    "id":"9",
     "name":"Manta de corderito 160x200 cm",
     "img":"manta",
     "description":"Corderito color rosa, miel y blanco.",
@@ -81,7 +72,6 @@
     "category":"living"
   },
   {
-    "id":"10",
     "name":"COMBO bolsita porta mate + yerbera",
     "img":"combo-bolsita",
     "description":"¡PROMO! 15% OFF (antes $7500)",
@@ -90,7 +80,6 @@
     "category":"materas"
   },
   {
-    "id":"11",
     "name":"Lonita mapa mundi 160x100 cm",
     "img":"lonita",
     "description":"",
@@ -99,7 +88,6 @@
     "category":"materas"
   },
   {
-    "id":"12",
     "name":"Lonita jungla 140 cm Ø",
     "img":"lonita-redonda",
     "description":"",
@@ -108,7 +96,6 @@
     "category":"materas"
   },
   {
-    "id":"13",
     "name":"Funda porta computadora",
     "img":"funda-computadora",
     "description":"¡En el tamaño que quieras!\nConsultá por los estampados disponibles.",
@@ -117,7 +104,6 @@
     "category":"complementos"
   },
   {
-    "id":"14",
     "name":"Neceser + Scrunchie de regalo ❤️",
     "img":"neceser",
     "description":"Medidas: 9x18x9 cm (alto x ancho x profundidad)",
@@ -126,7 +112,6 @@
     "category":"complementos"
   },
   {
-    "id":"15",
     "name":"Porta documentos 20x14 cm",
     "img":"porta-documentos",
     "description":"¡Organizadores con cierre para que no se pierda nada!\n🚘 Documentos del auto\n📒 Libreta sanitaria\n✈️ Pasaporte \\ pasajes.",

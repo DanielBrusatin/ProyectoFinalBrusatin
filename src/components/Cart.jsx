@@ -23,11 +23,11 @@ const Cart = () => {
         <Col md={7} style={{textAlign: 'right'}}>TOTAL</Col>
         <Col md={2} style={{textAlign: 'right'}}>${totalPrice}</Col>
         <Col md={3}>
-        <button className="btn btn-primary remove-from-cart" onClick={cleanCart}>
-          <BsTrashFill className='remove-from-cart-button'/>
-          <p>Vaciar carrito</p>
-        </button>
-      </Col>
+          <button className="btn btn-primary remove-from-cart" onClick={cleanCart}>
+            <BsTrashFill className='remove-from-cart-button'/>
+            <p>Vaciar carrito</p>
+          </button>
+        </Col>
       </Row>
     </Container>
   )

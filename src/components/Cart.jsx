@@ -17,19 +17,25 @@ const Cart = () => {
     )
   }
   return (
-    <Container fluid>
-      {cartList.map(item => <CartItem key={item.id} {...item}/>)}
-      <Row style={{margin: 20}}>
-        <Col md={7} style={{textAlign: 'right'}}>TOTAL</Col>
-        <Col md={2} style={{textAlign: 'right'}}>${totalPrice}</Col>
-        <Col md={3}>
-          <button className="btn btn-primary remove-from-cart" onClick={cleanCart}>
-            <BsTrashFill className='remove-from-cart-button'/>
-            <p>Vaciar carrito</p>
-          </button>
-        </Col>
-      </Row>
-    </Container>
+    <>
+      <h2>Carrito</h2>
+      <Container fluid>
+        {cartList.map(item => <CartItem key={item.id} {...item}/>)}
+        <Row style={{margin: 20}}>
+          <Col md={7} style={{textAlign: 'right'}}>TOTAL</Col>
+          <Col md={2} style={{textAlign: 'right'}}>${totalPrice}</Col>
+          <Col md={3}>
+            <button className="btn btn-success remove-from-cart" onClick={cleanCart}>
+              <BsTrashFill className='remove-from-cart-button'/>
+              <p>Vaciar carrito</p>
+            </button>
+          </Col>
+        </Row>
+        <Row>
+          <Button variant="success" as={NavLink} to={'/checkout'}>Checkout</Button>
+        </Row>
+      </Container>
+    </>
   )
 }
 

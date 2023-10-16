@@ -1,0 +1,27 @@
+form {
+  background-color: #FAC462;
+  padding: 15px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+form * {
+  font-family: "Sigmar", cursive;
+}
+form .casillas {
+  padding: 3px 5px;
+  border-radius: 12px;
+  margin-bottom: 5px;
+}
+.boton--verde {
+  background-color: #C7DA64;
+  border-radius: 50px;
+  padding: 8px 17px;
+  box-shadow: inset 0px 0px 10px black;
+  font-weight: 800;
+}
+.boton--verde:hover {
+  background-color: #A2C200;
+  color: white;
+}

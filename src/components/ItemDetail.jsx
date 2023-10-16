@@ -29,7 +29,7 @@ const ItemDetail = ({id, name, img, price, stock, description, category}) => {
         !added ?
         <ItemCount initial={1} stock={stock} onAdd={(quantity) => handleOnAdd(quantity)}/>
         : 
-        <Button as={NavLink} to={`/cart`} variant="primary" className='card-button'>Terminar compra</Button>
+        <Button as={NavLink} to={`/cart`} variant="success" className='card-button'>Terminar compra</Button>
       }
       <Card.Footer className="text-muted">Stock disponible: {stock} unidades</Card.Footer>
     </Card>  

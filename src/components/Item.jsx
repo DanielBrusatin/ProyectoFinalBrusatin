@@ -12,7 +12,7 @@ const Item = ({id, name, img, price, stock}) => {
         <Card.Title>{name}</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">Precio: ${price}</Card.Subtitle>
       </Card.Body>
-      <Button as={NavLink} to={`/item/${id}`} variant="primary" className='card-button'>Ver detalles</Button>
+      <Button as={NavLink} to={`/item/${id}`} variant="success" className='card-button'>Ver detalles</Button>
       <Card.Footer className="text-muted">Stock disponible: {stock} unidades</Card.Footer>
     </Card>  
   )

@@ -15,7 +15,7 @@ const ItemCount = ({initial, stock, onAdd}) => {
         <p>{quantity}</p>
         <AiFillPlusCircle onClick={plus} className='item-count-button'/>
       </div>
-        <button className="btn btn-primary add-to-cart" onClick={() => onAdd(quantity)} disabled={!stock}>
+        <button className="btn btn-success add-to-cart" onClick={() => onAdd(quantity)} disabled={!stock}>
           <BsCartPlus className='add-to-cart-button'/>
           <p>Add to cart</p>
         </button>

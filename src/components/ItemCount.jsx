@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import { AiFillMinusCircle } from "react-icons/ai";
-import { AiFillPlusCircle } from "react-icons/ai";
+import { AiFillMinusCircle, AiFillPlusCircle } from "react-icons/ai";
 import { BsCartPlus } from "react-icons/bs";
 import '../styles-sheets/ItemCount.css'
 

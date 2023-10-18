@@ -12,7 +12,7 @@ const Cart = () => {
     return (
       <>
         <h2>Aun no hay productos en el carrito</h2>
-        <Button as={NavLink} to={'/'}>Ir a la tienda</Button>
+        <Button variant="success" as={NavLink} to={'/'}>Ir a la tienda</Button>
       </>
     )
   }
@@ -21,18 +21,15 @@ const Cart = () => {
       <h2>Carrito</h2>
       <Container fluid>
         {cartList.map(item => <CartItem key={item.id} {...item}/>)}
-        <Row style={{margin: 20}}>
-          <Col md={7} style={{textAlign: 'right'}}>TOTAL</Col>
-          <Col md={2} style={{textAlign: 'right'}}>${totalPrice}</Col>
-          <Col md={3}>
-            <button className="btn btn-success remove-from-cart" onClick={cleanCart}>
+        <Row style={{margin: 20, display: 'flex', justifyContent: 'center'}}>
+          <h4 style={{textAlign: 'center'}}>TOTAL: ${totalPrice}</h4>
+            <button className="btn btn-success remove-from-cart" onClick={cleanCart} style={{width: 'fit-content'}}>
               <BsTrashFill className='remove-from-cart-button'/>
-              <p>Vaciar carrito</p>
+              <span>Vaciar carrito</span>
             </button>
-          </Col>
         </Row>
         <Row>
-          <Button variant="success" as={NavLink} to={'/checkout'}>Checkout</Button>
+          <Button variant="success" as={NavLink} to={'/checkout'}>Finalizar compra</Button>
         </Row>
       </Container>
     </>

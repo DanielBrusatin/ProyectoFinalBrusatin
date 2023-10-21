@@ -9,8 +9,7 @@
 .cart-widget p {
   font-size: 0.8rem;
   font-weight: 900;
-  color: #ff0000;
-  box-sizing: content-box;
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +19,7 @@
   top: 5px;
   right: 0px;
   margin: 0px;
-  background-color: #fff;
+  background-color: #ff0000;
   border: 1px solid #ff0000;
   border-radius: 50%;
 }

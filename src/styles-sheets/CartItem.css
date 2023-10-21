@@ -5,21 +5,15 @@
   margin: 10px;
   border-radius: 20px;
 }
-
 .remove-from-cart {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100%;
   border-radius: 20px;
   padding: 2px 5px;
 } 
-
 .remove-from-cart-button {
   width: 18px;
   height: 18px;
 }
-
 .remove-from-cart p {
   margin: 0;
   padding: 0 5px;

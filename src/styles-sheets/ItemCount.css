@@ -32,7 +32,7 @@
   width: 18px;
   height: 18px;
 }
-.add-to-cart {
+.item-count-container .add-to-cart {
   display: flex;
   align-items: center;
   justify-content: space-around;

@@ -54,6 +54,8 @@ const Checkout = () => {
           <input type='tel' id='phone' placeholder='Escribe tu telefono...' className='casillas' pattern='[0-9]*' onChange={(ev) => setPhone(ev.target.value)} required/>
           <label htmlFor='email'>Email <span style={{color: 'gray'}}>(ejemplo@ejemplo.com)</span></label>
           <input type='email' id='email' placeholder='Escribe tu email...' className='casillas' onChange={(ev) => setEmail(ev.target.value)} required/>
+          <label htmlFor='rep-email'>Repetir email</label>
+          <input type='text' id='rep-email' placeholder='Escribe tu email...' className='casillas' pattern={email} required onChange ={({target}) => target.validity.patternMismatch ? target.setCustomValidity('Los email no coinciden') : target.setCustomValidity('')}/>
           <button type='submit' className='btn btn-success'>ENVIAR</button>
         </form>
       </>
